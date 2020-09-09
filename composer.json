@@ -1,0 +1,29 @@
+{
+    "name": "sonleu/barrier",
+    "description": "This is a small package to handle pre-conditions in controllers",
+    "keywords": [
+        "barrier",
+        "sonleu"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Son Leu",
+            "email": "boyvn2911@gmail.com",
+            "role": "developer"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SonLeu\\Barrier\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SonLeu\\Barrier\\BarrierServiceProvider"
+            ]
+        }
+    }
+}

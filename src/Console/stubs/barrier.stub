@@ -1,0 +1,24 @@
+<?php
+
+namespace DummyNamespace;
+
+use SonLeu\Barrier\BarrierInterface;
+
+class DummyClass implements BarrierInterface
+{
+    /**
+     * @return bool
+     */
+    public function passes(): bool
+    {
+        return true;
+    }
+
+    /**
+     * @return string
+     */
+    public function message(): string
+    {
+        return '';
+    }
+}
